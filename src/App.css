@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.background-image {
+  background-image: url('https://noemptyseats.org/cdn/shop/files/D216AC55-0CB1-4BEA-9859-172F6F97093E.jpg?v=1671612864&width=3840');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 5rem;
+}
+
+.overlay p {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+
+.section2 h2 {
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width : 100%;
+  height: 110px;
+  background-color: #104AA0;
+  padding: 10px 30px;
+}
+
+.logo img {
+  width: 85px;
+  height: auto;
+}
+
+.header .navigation{
+  list-style: none;
+  margin-left: auto;
+  vertical-align: middle;
+}
+
+.header .navigation ul li{
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+.header .navigation ul li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header .btn {
+  padding: 10px 50px;
+}
+
+.header .btn button ,.col button{
+  padding: 10px 30px;
+  background-color: #9575C9;
+  border: 1px solid #9575C9;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.stories {
+  margin-top: 25px; 
+  margin-left: 45px;
+  margin-right: 45px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.stories h2 {
+  font-size: 2rem; 
+  margin-bottom: 10px; 
+}
+
+.stories p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.image img {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+
+.sections {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+}
+
+.sect {
+  flex: 0 0 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.image-sect img {
+  background-size:contain;
+  background-position: center;
+  width: 50%;
+  height: 50%;
+  flex: 0 0 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  
+}
+
+.photoSect {
+  display: flex;
+  flex-direction: wrap;
+  justify-content:space-between;
+}
